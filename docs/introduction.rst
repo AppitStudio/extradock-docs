@@ -16,12 +16,12 @@ Who is it for?
 - **Designers** — Group design tools separately from communication and reference apps.
 - **Power users** — Anyone who finds the single macOS Dock limiting.
 
-How is it different from Dock replacements?
--------------------------------------------
+How does it work with macOS?
+----------------------------
 
-ExtraDock is not a Dock replacement. It works **alongside** the native macOS Dock — your system Dock stays exactly where it is.
+ExtraDock can work alongside the native macOS Dock or fully replace it — your choice. Use it to add extra docks wherever you need them, or hide the native Dock entirely and use ExtraDock as your complete dock setup.
 
-Other tools try to replace or heavily modify the Dock. ExtraDock just adds more docks wherever you want them.
+See :doc:`general` for the **Hide native macOS Dock** option.
 
 --------------
 
