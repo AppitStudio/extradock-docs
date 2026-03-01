@@ -37,11 +37,11 @@ Drag folders into a dock for quick access. Folders can display their name below 
 
 **Trash**
 
-Add the :doc:`trashwidget` to any dock for drag-to-trash and empty-trash functionality.
+Add the :doc:`Trash widget <widgets>` to any dock for drag-to-trash and empty-trash functionality.
 
 **Finder access**
 
-Add the :doc:`finderwidget` to open Finder windows from the dock.
+Add the :doc:`Finder widget <widgets>` to open Finder windows from the dock.
 
 **App actions**
 
@@ -58,7 +58,7 @@ Pin a dock to any edge — bottom, left, right, or top — or leave it floating 
 Tracking running apps with Live Dock
 --------------------------------------
 
-The native Dock shows running apps with a small dot — but you still have to remember what's open. The :doc:`livedock` widget solves this by giving you a dock that updates itself automatically.
+The native Dock shows running apps with a small dot — but you still have to remember what's open. The :doc:`LiveDock <widgets>` widget solves this by giving you a dock that updates itself automatically.
 
 Live Dock has two modes:
 
@@ -68,12 +68,12 @@ Live Dock has two modes:
 
 For a full replacement workflow, **Running Apps Only** on a second dock works well alongside a primary dock of pinned apps. You get a clean separation: one dock for launching, one for managing what's running.
 
-See :doc:`livedock` for setup details.
+See :doc:`LiveDock <widgets>` for setup details.
 
 Knowing what's in your current Space
 --------------------------------------
 
-If you use multiple macOS Spaces (virtual desktops), it's easy to lose track of which apps have windows in the Space you're currently on. The :doc:`spaceawareness` widget shows exactly that — it displays icons for apps with windows in the active Space, updating as you switch between them.
+If you use multiple macOS Spaces (virtual desktops), it's easy to lose track of which apps have windows in the Space you're currently on. The :doc:`Space Awareness <widgets>` widget shows exactly that — it displays icons for apps with windows in the active Space, updating as you switch between them.
 
 This is especially useful in a dock replacement setup where you have several Spaces for different tasks. Instead of opening Mission Control to see what's where, you get that information right in your dock.
 
@@ -97,8 +97,8 @@ Recommended setup
 A minimal replacement setup:
 
 1. Create a primary dock and pin it to the bottom edge — add your most-used apps (:doc:`fixed`, :doc:`addingapps`)
-2. Add the Trash and Finder widgets (:doc:`trashwidget`, :doc:`finderwidget`)
-3. Create a second dock with the Live Dock widget set to **Running Apps Only** (:doc:`livedock`)
+2. Add the Trash and Finder widgets (:doc:`Trash widget <widgets>`, :doc:`Finder widget <widgets>`)
+3. Create a second dock with the Live Dock widget set to **Running Apps Only** (:doc:`LiveDock <widgets>`)
 4. Enable notification badges (:doc:`notificationbadges`)
 5. Hide the native Dock (:doc:`general`)
 

@@ -57,18 +57,6 @@ If you have questions or need help, we're always available at `appitstudio@gmail
    :caption: Widgets
 
    widgets
-   spacerwidget
-   dividerwidget
-   urlwidget
-   livedock
-   clockwidget
-   ipwidget
-   finderwidget
-   shelf
-   trashwidget
-   spaceawareness
-   tamadocky
-   stripewidget
 
 .. toctree::
    :maxdepth: 2
