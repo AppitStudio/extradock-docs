@@ -5,6 +5,11 @@ ExtraDock checks for updates automatically using the Sparkle framework.
 
 Open **Settings** (⚙) → **Updates** to manage update preferences.
 
+Current version
+---------------
+
+The Updates page shows the current ExtraDock version and build number.
+
 Checking for updates
 --------------------
 

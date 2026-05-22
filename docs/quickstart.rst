@@ -8,31 +8,44 @@ Create your first dock
 
 2. Click **Show App** to open the management window
 
-3. Click **+ New Dock** to create a dock
+3. Click **Add Dock** to create a dock
 
 4. Your new dock appears on screen — drag it wherever you want
 
-Add apps
---------
+Add items
+---------
 
-There are two ways to add apps to a dock:
+There are two ways to add items to a dock:
 
-- **Drag and drop** — Drag any ``.app`` file from Finder directly onto the dock
-- **File dialog** — Right-click the dock background → **Add Apps & Folders**, or use the **+** button in the management window
+- **Drag and drop** — Drag an app, folder, or file from Finder directly onto the dock
+- **Items tab** — Open the management window → select a dock → **Items** → **Add Item**
 
 Try it: drag a few apps from your Applications folder onto your new dock.
+
+Add a widget
+------------
+
+1. Open the management window → select a dock → **Items**
+
+2. Click **Add Widget**
+
+3. Choose a widget, such as **Clock**, **Finder**, **Trash**, or **Live Dock**
+
+4. Click the gear icon beside the widget to configure it
 
 Move it around
 --------------
 
 - **Drag** the dock to reposition it anywhere on screen
 - **Drag near a screen edge** and it snaps into place
-- **Right-click** the dock background to access position and behavior settings
+- Switch to **Fixed** mode to pin it to an edge
 
 Quick things to try
 -------------------
 
-- Create a second dock and drag it to another monitor
-- Right-click the dock → **Orientation** → **Vertical** to flip it sideways
-- Right-click → **Collapse Mode** → pick a direction, then click the collapse button that appears
+- Create a second dock and assign it to another monitor
+- Set a dock to **Vertical** orientation
+- Enable **Collapse Mode** and click the collapse button
+- Add a **Shelf** widget and drag a file into it
+- Add a **Live Dock** widget to see running apps
 - Right-click an app → **Hide** or **Quit** to control running apps directly

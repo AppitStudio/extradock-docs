@@ -23,8 +23,16 @@ When you show a dock via its hotkey, it can automatically hide again after a del
 - **3 seconds**
 - **5 seconds**
 - **10 seconds**
+- **15 seconds**
+- **30 seconds**
+- **60 seconds**
 
 This is useful for quick-glance workflows — press the hotkey, launch an app, and the dock disappears on its own.
+
+macOS Shortcuts
+---------------
+
+Hotkeys are direct keyboard shortcuts for individual docks. For system automations and Focus modes, see :doc:`macosshortcuts`.
 
 Tips
 ----

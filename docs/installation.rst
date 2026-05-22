@@ -21,9 +21,27 @@ Setup
 
 3. Open ExtraDock from Applications
 
-4. Enter your license key when prompted
+4. Enter your license key when prompted, or activate with a supported team account
 
 That's it. ExtraDock appears in your menu bar and you're ready to create docks.
+
+First launch
+------------
+
+On first launch, ExtraDock asks how it should appear:
+
+- **Menu Bar Only**
+- **Dock App Only**
+- **Both**
+
+You can change this later in **Settings** (⚙) → **General**.
+
+Permissions
+-----------
+
+Some features ask for macOS permissions when you enable them. For example, notification badges and window controls use Accessibility, while App Previews use Screen Recording.
+
+See :doc:`permissions`.
 
 License Activation
 ------------------

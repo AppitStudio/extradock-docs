@@ -8,7 +8,7 @@ Open **Settings** (⚙) → **Integrations** to manage connections.
 Stripe
 ------
 
-The :doc:`Stripe widget <widgets>` needs a Stripe API key to fetch live revenue data.
+The :doc:`Stripe Balance widget <stripewidget>` needs a Stripe API key to fetch live revenue data.
 
 Connecting your account
 ^^^^^^^^^^^^^^^^^^^^^^^

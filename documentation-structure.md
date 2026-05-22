@@ -1,161 +1,117 @@
-# ExtraDock Documentation — Full Page Map
+# ExtraDock Documentation Map
 
-Every page we need to write, organized by category. Each entry is a headline (= a page) with its category.
+This repository is a user-facing feature guide for ExtraDock. It explains what users can do, where to find each feature, which permissions are required, and how settings behave.
 
----
+It is not a technical code reference.
 
 ## Getting Started
 
-| Page | What it covers |
-|------|---------------|
-| **Introduction** | What ExtraDock is, who it's for, how it's different from Dock replacements, works alongside native Dock |
-| **Installation** | Requirements (macOS 12+, Intel/Apple Silicon), download, .dmg setup, license activation, uninstall |
-| **Quick Start** | Create first dock, add apps, drag to edge, collapse it, create a second dock on another monitor |
+| Page | Covers |
+|------|--------|
+| Introduction | What ExtraDock is, who it is for, and core concepts |
+| Installation | Requirements, setup, first launch, license, permissions |
+| Quick Start | Create a dock, add items, add widgets, try core actions |
+| Permissions | Accessibility, Screen Recording, file access, Native Trash |
+| Dock Replacement | How to replace the native macOS Dock with ExtraDock |
 
----
+## Managing Docks
 
-## Docks
-
-| Page | What it covers |
-|------|---------------|
-| **Creating & Managing Docks** | Creating from menu bar or management UI, renaming, duplicating, removing, copy/paste settings between docks |
-| **The Management Window** | The main management UI — dock list, properties tab, items tab, how to open it (⌘⇧M) |
-
----
+| Page | Covers |
+|------|--------|
+| Creating & Managing Docks | Add, rename, duplicate, share, remove, hide docks |
+| Management Window | Dock list, Properties tab, Items tab, Share Dock |
+| Menu Bar | Status item, per-dock quick controls, license/update actions |
+| Import / Export | Full backup, import wizard, automatic backups, DockShare packages |
+| DockShare | Share-safe dock publishing and shared dock import flow |
 
 ## Position & Layout
 
-| Page | What it covers |
-|------|---------------|
-| **Floating Mode** | Free-floating docks, drag to reposition, position lock, drag handle visibility |
-| **Fixed Mode** | Edge-pinned docks (top/bottom/left/right), full-width option, space from edges |
-| **Orientation** | Horizontal vs vertical layout, switching per dock |
-| **Snap to Edges** | Magnetic snapping behavior when dragging near edges, disabling it in settings |
-| **Multi-Monitor** | Per-screen mapping, attach to screen, screen picker, disconnect/reconnect behavior |
-
----
+| Page | Covers |
+|------|--------|
+| Floating Mode | Free placement, drag handle, position lock |
+| Fixed Mode | Pinned edges, full width, alignment, edge padding, space from edges |
+| Orientation | Horizontal and vertical docks |
+| Snap to Edges | Magnetic snapping and disabling it |
+| Multi-Monitor | Allowed screens, reconnect behavior, forgetting screens |
+| Reserve Dock Space | Keep expanded app windows outside fixed dock areas |
 
 ## Visibility & Behavior
 
-| Page | What it covers |
-|------|---------------|
-| **Auto-Hide** | Enable/disable per dock, delay slider (instant/quick/normal/custom), hover to reveal |
-| **Collapse Mode** | Collapse directions (L→R, R→L, T→B, B→T), hover-to-expand, collapse button customization (arrow/SF Symbol/text/emoji) |
-| **Fullscreen Detection** | Per-screen fullscreen detection, auto-hide when fullscreen app active, enable/disable per dock |
-| **Desktop Widget Mode** | Act as Desktop Widget — keeps dock behind all app windows like desktop content |
-| **Respect Dock Space** | Prevents expanded windows from overlapping fixed docks, requires Accessibility, active-on-drag sub-option |
-
----
+| Page | Covers |
+|------|--------|
+| Auto-Hide | Hide and reveal delays |
+| Collapse Mode | Collapse directions, hover to expand, button customization |
+| Fullscreen Detection | Hide docks when fullscreen apps are active |
+| Desktop Widget Mode | Keep a dock behind app windows |
 
 ## Apps & Items
 
-| Page | What it covers |
-|------|---------------|
-| **Adding Apps & Folders** | Drag & drop from Finder, + button / file dialog, adding folders |
-| **Rearranging & Removing** | Drag to reorder items, right-click → Remove from Dock |
-| **App Actions (Right-Click)** | Context menu: Open, Hide, Quit, Reveal in Finder (apps); Open, Open in New Window, Reveal in Finder (folders) |
-| **Drag & Drop onto Items** | Drop files onto app icon to open with that app, drop files onto folder to move them there, visual feedback |
-| **Running App Indicators** | Subtle dot indicators for running apps, how they work |
-| **Notification Badges** | Badge counts on icons, opt-in flow, Accessibility permission, per-app toggles |
-
----
+| Page | Covers |
+|------|--------|
+| Adding Apps, Folders & Files | Drag/drop and Add Item flows |
+| Rearranging & Removing | Reorder, remove, bulk management |
+| App Actions | Open, hide, quit, reveal, configure, remove |
+| Drag & Drop onto Items | Drop files onto apps or folders |
+| Running App Indicators | Running-state dots |
+| Notification Settings | Badge opt-in, full number display, per-app overrides |
+| Folder & File Display | Folder labels, hover labels, tint, file extensions, open-with |
 
 ## Widgets
 
-| Page | What it covers |
-|------|---------------|
-| **Widgets Overview** | What widgets are, how to add them (+ button → widget picker), list of all available widgets |
-| **Spacer** | Adjustable spacing between items — 10/30/custom px |
-| **Divider** | Visible separator line between items, color customization |
-| **URL Widget** | URL shortcuts with favicon or SF Symbol icon, title display, color presets, any URL scheme supported |
-| **LiveDock** | Mirror macOS Dock or show running apps only (task switcher mode), real-time updates, click to activate/launch |
-| **Clock** | Live digital clock with customizable format |
-| **IP Address** | Display public IP address, periodic refresh |
-| **Finder** | Quick access to Finder at a configured location |
-| **Shelf** | Temporary file storage — drag files in, drag them out, like Yoink/Dropover built into the dock |
-| **Trash** | Virtual trash or native macOS trash mode |
-| **Space Awareness** | Shows apps with windows in the current macOS Space |
-| **TamaDocky** | Virtual pet cat — 6 animations, 8 skins, 15 room backgrounds, pet stats (happiness, hunger, energy) |
-| **Stripe** | Revenue dashboard widget — Stripe integration with smart caching (developer/business tool) |
-
----
+| Page | Covers |
+|------|--------|
+| Widgets | Overview and entry points |
+| Spacer Widget | Layout spacing presets and custom size |
+| Divider Widget | Separator line and side spacing |
+| URL Widget | URLs, favicons, SF Symbols, custom icon URL/file |
+| Finder Widget | Finder locations and behavior |
+| Folder Stack | Multiple source folders, list/grid, icon/name customization |
+| Trash Widget | ExtraDock Trash and Native Trash |
+| Shelf | Personal Shelf, copy/move, persistence, max items |
+| Clock Widget | Time/date/timezone, themes, fonts, click action |
+| IP Address Widget | Public IP display, refresh, copy |
+| Live Dock | Running Apps and Full Dock modes |
+| Space Awareness | Current Space apps, Accessibility, hidden items |
+| TamaDocky | Pet name, size, Simple/Tamagotchi mode |
+| Stripe Balance Widget | Stripe setup, gross/net, date ranges, refresh/cache |
 
 ## Appearance
 
-| Page | What it covers |
-|------|---------------|
-| **Icon Size & Color** | Dock icon size slider (20–128px, presets: small/default/large/custom), accent tint color with palette + custom picker |
-| **Background** | Blur vs Solid style, blur intensity (ultra light → ultra dark), background color palette, opacity slider (0–100%) |
-| **Border** | Enable/disable, width (hairline/thin/bold/custom), color (clear/soft white/bright white/dark + custom picker) |
-| **Custom Icons** | Replace any app/folder icon, import from URL or file (PNG/JPEG/ICNS), icon library, search/rename/delete, revert to original |
-| **Folder Display Names** | Show folder name below smaller folder icon for identification |
+| Page | Covers |
+|------|--------|
+| Icon Size & Color | Icon size, app spacing, accent color |
+| Background | Blur/solid background, intensity, opacity |
+| Border | Border toggle, width, color |
+| Custom Icons | Change icons, import from URL/file, supported formats |
+| Icon Library | Manage imported icons |
 
----
+## Automation
+
+| Page | Covers |
+|------|--------|
+| Hotkeys | Per-dock global keyboard shortcuts |
+| macOS Shortcuts & Focus | Show/hide/toggle/list docks, Focus Filters |
+
+## Settings & Account
+
+| Page | Covers |
+|------|--------|
+| General Settings | Startup, app mode, native Dock suppression, error reports |
+| Behavior Settings | Left click behavior, folder opener, snapping, Reserve Dock Space |
+| App Previews | Beta hover previews, permissions, filters, display, timing |
+| Integrations | Stripe setup and key management |
+| License | License key, team activation, statuses, removal |
+| Updates | Sparkle updates, current version/build |
+| Privacy & Diagnostics | Error reports, backups, DockShare, Stripe |
 
 ## Effects
 
-| Page | What it covers |
-|------|---------------|
-| **Snow Effect** | Festive falling snowflakes overlay, per-dock toggle, GPU-accelerated |
-| **Fireworks Effect** | Celebratory fireworks overlay, per-dock toggle, multi-color bursts |
-
----
-
-## Shortcuts
-
-| Page | What it covers |
-|------|---------------|
-| **Global Hotkeys** | Per-dock hotkey to toggle visibility, shortcut recorder, auto-hide after hotkey show (3s/5s/10s/15s/30s/60s/never) |
-
----
-
-## App Settings (General)
-
-| Page | What it covers |
-|------|---------------|
-| **General Settings** | Launch at startup, app mode (menu bar only / dock app only / both), hide native macOS Dock, show management on launch |
-| **Left-Click Behavior** | Normal (open/activate) vs Toggle Minimize — what happens when clicking a running app icon |
-| **Dock Behavior** | Disable magnetic snapping, respect dock space (global), active on drag (global) |
-| **Notification Settings** | Global badge enable/disable, opt-in flow with explanation modal, Accessibility permission, per-app overrides |
-| **Icon Library** | Manage all imported custom icons in one place — browse, search, delete |
-| **Integrations** | Third-party service connections (Stripe API key) |
-| **License Management** | Activation, device-bound, revalidation, status display |
-| **Updates** | Check for software updates (Sparkle) |
-
----
-
-## Menu Bar
-
-| Page | What it covers |
-|------|---------------|
-| **Menu Bar Controls** | Tray icon, Show App (management), per-dock show/hide, create new dock, quick access to all dock settings |
-
----
-
-## Summary — 45 pages total
-
-| Category | Pages |
-|----------|-------|
-| Getting Started | 3 |
-| Docks | 2 |
-| Position & Layout | 5 |
-| Visibility & Behavior | 5 |
-| Apps & Items | 6 |
-| Widgets | 13 |
-| Appearance | 5 |
-| Effects | 2 |
-| Shortcuts | 1 |
-| App Settings | 8 |
-| Menu Bar | 1 |
-| **Total** | **51** |
-
----
+| Page | Covers |
+|------|--------|
+| Effects | Snow, Rays, Fireworks |
 
 ## Notes
 
-- **Notification Badges** are WIP — document what's there, note it may change
-- **Stripe widget** and **Integrations** page are niche/developer-facing — keep them short
-- **Dock Name Display** is hidden/disabled — skip it
-- Each widget gets its own page since they're each a distinct feature with their own settings
-- Some smaller pages (Snow Effect, Fireworks Effect) could be merged into a single "Effects" page — your call
-- Respect Dock Space could fold into Fixed Mode — your call
+- Keep feature-flagged items clearly marked as conditional.
+- Avoid implementation details unless they explain permissions, privacy, data flow, or user-visible limitations.
+- Prefer short task-led sections over long conceptual explanations.

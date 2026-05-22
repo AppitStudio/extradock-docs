@@ -3,15 +3,15 @@ Left-Click Behavior
 
 Choose what happens when you left-click a running app's icon in a dock.
 
-Open **Settings** (⚙) → **General** → **Left Click Behavior** to access this setting.
+Open **Settings** (⚙) → **Behavior** → **Left click behavior**.
 
-Normal
-------
+Open
+----
 
 The default behavior. Clicking an app icon opens or activates the app — the same as clicking an icon in the macOS Dock.
 
-Toggle Minimize
----------------
+Minimize
+--------
 
 Clicking the icon of the currently active app minimizes all its windows. Clicking it again restores them. This matches the behavior some users expect from Windows taskbars.
 

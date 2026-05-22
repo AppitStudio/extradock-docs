@@ -3,25 +3,28 @@ Multi-Monitor
 
 ExtraDock is built for multi-monitor setups. Each dock can be assigned to a specific display and remembers which screen it belongs to.
 
-Assigning a dock to a screen
------------------------------
+Allowed screens
+---------------
 
-- **Right-click** the dock → **Display** → choose a screen
-- **Management window** → **Properties** → **Position** → **Screen** → **Choose Screen**
+Open **Management window** → **Properties** → **Position** → **Allowed Screens**.
 
-The screen picker shows all connected displays with their names. If you have multiple identical monitors, ExtraDock disambiguates them automatically.
+When no screen is assigned, the dock can appear on any screen.
 
-Attach to screen
-----------------
+Use **Add Screen** to limit the dock to one or more known screens. If you have multiple identical monitors, ExtraDock uses live connection details to keep them separate.
 
-When **Attach to Screen** is enabled, the dock is bound to its assigned display:
+How assigned screens work
+-------------------------
 
-- If that display disconnects, the dock hides automatically
-- When the display reconnects, the dock reappears in its original position
+- A dock can only appear on one screen at a time
+- If no assigned screen is connected, the dock hides
+- When an assigned screen reconnects, the dock can return to it
 
-When disabled (the default), a dock moves to the main display if its preferred screen disconnects.
+If you want the same dock layout on multiple screens at once, duplicate the dock and assign each copy to a different screen.
 
-**Management window** → **Properties** → **Position** → **Attach to Screen**
+Forgetting screens
+------------------
+
+Use **Forget Screen...** to remove disconnected external displays from ExtraDock's known screen list. Built-in and currently connected screens cannot be forgotten.
 
 Disconnect and reconnect
 ------------------------

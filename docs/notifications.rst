@@ -1,5 +1,5 @@
 Notification Settings
-====================
+=====================
 
 Control how notification badges appear on dock icons.
 
@@ -33,6 +33,9 @@ The **Per-App Settings** list shows all currently running apps. Toggle any app o
 
 Click **Refresh App List** to update the list if you've launched or quit apps since opening the settings.
 
-.. note::
+Accessibility permission
+------------------------
 
-   Notification badges require Accessibility permission. Without it, badge counts cannot be read from running applications.
+Notification badges require Accessibility permission. Without it, badge counts cannot be read from running applications.
+
+See :doc:`permissions`.

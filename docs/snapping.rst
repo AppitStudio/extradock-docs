@@ -13,6 +13,6 @@ Disabling snapping
 
 If you prefer full manual control over dock placement:
 
-Open ExtraDock → **Settings** (⚙) → **General** → **Dock Behavior** → enable **Disable magnetic snapping when near the edge of the screen**.
+Open ExtraDock → **Settings** (⚙) → **Behavior** → enable **Disable magnetic snapping**.
 
 When disabled, docks no longer snap and can be placed at any position freely.

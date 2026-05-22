@@ -1,28 +1,36 @@
-Adding Apps & Folders
-=====================
+Adding Apps, Folders & Files
+============================
 
 There are two ways to add items to a dock.
 
 Drag and drop
 -------------
 
-Drag any ``.app`` file or folder from Finder directly onto the dock. The item appears where you drop it.
+Drag any app, folder, or file from Finder directly onto the dock. The item appears where you drop it.
 
 You can drag multiple items at once.
 
 File dialog
 -----------
 
-1. Right-click the dock background → **Add Apps & Folders**
+1. Open the management window → select a dock → **Items**
 
-2. Select one or more applications or folders in the file picker
+2. Click **Add Item**
 
-3. Click **Open** — the items are added to the dock
+3. Select one or more applications, folders, or files
 
-You can also use the **+** button in the management window's Items tab.
+4. Click **Open** — the items are added to the dock
 
 What you can add
 ----------------
 
 - **Applications** — Any ``.app`` from your Applications folder or elsewhere
-- **Folders** — Any folder on disk. Click to open in Finder.
+- **Folders** — Any folder on disk
+- **Files** — Documents, scripts, images, or other files
+
+Item settings
+-------------
+
+Right-click an item or click its gear icon in the Items tab to configure it.
+
+Files can hide their file extension. Folders can customize their hover label, visible name, icon tint, and opening app.

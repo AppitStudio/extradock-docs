@@ -27,7 +27,8 @@ See :doc:`general` for the **Hide native macOS Dock** option.
 
 - **Multiple docks** — Create as many as you need, each fully independent
 - **Multi-screen** — Assign docks to specific displays, auto-hide on disconnect
+- **Widgets** — Add clocks, shelves, folder stacks, live running-app views, and more
 - **Lightweight** — Minimal CPU and memory usage
 - **Customizable** — Per-dock colors, sizes, orientation, and behavior
 - **Works offline** — Internet needed only for license activation
-- **Private** — No analytics, no telemetry, your config stays local
+- **Private by default** — Your configuration stays local unless you choose sharing features

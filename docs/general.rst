@@ -1,7 +1,7 @@
 General Settings
 ================
 
-Core app behavior and system integration options.
+Startup, app visibility, and privacy options.
 
 Open **Settings** (⚙) → **General** to access these settings.
 
@@ -30,3 +30,15 @@ Show management window on launch
 ---------------------------------
 
 Toggle **Show management window on launch** to automatically open the management window every time ExtraDock starts. Useful during initial setup; you can disable it once your docks are configured.
+
+Send error reports
+------------------
+
+Toggle **Send error reports** to automatically send anonymous error reports when something goes wrong. These reports help diagnose stability issues and can be turned off anytime.
+
+Behavior settings
+-----------------
+
+Click behavior, folder opening, snapping, and Reserve Dock Space live in **Settings** (⚙) → **Behavior**.
+
+See :doc:`dockbehavior`.

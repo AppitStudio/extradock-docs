@@ -24,7 +24,7 @@ Click and drag the dock background to reposition it. On hover, a drag handle app
 To always show the drag handle:
 
 - **Right-click** the dock → **Show Drag Icon**
-- **Management window** → **Properties** → **Behavior** → **Show Drag Handle**
+- **Management window** → **Properties** → **Position** → **Show Drag Handle**
 
 Position lock
 -------------

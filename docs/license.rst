@@ -8,11 +8,25 @@ Open **Settings** (⚙) → **License** to access these settings.
 Activating a license
 --------------------
 
-1. Enter your license key in the text field
+You can activate with a license key or, when available, a team email.
 
-2. Click **Activate License**
+License key:
 
-3. ExtraDock verifies the key with the license server
+1. Choose **License Key**
+
+2. Enter your license key
+
+3. Click **Activate License**
+
+4. ExtraDock verifies the key with the license server
+
+Team activation:
+
+1. Choose **Team**
+
+2. Enter the team email address
+
+3. Follow the activation flow shown in the app
 
 On success, the status shows **Active** with a green checkmark.
 
@@ -29,6 +43,11 @@ Removing a license
 ------------------
 
 Click **Remove License** to deactivate this device. You'll need to re-enter and activate a key to continue using ExtraDock.
+
+Temporary licenses
+------------------
+
+If your license is temporary, ExtraDock may show remaining time or renewal reminders.
 
 Purchasing
 ----------

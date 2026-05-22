@@ -14,14 +14,13 @@ Available actions
 -----------------
 
 - **Show App** — Open the management window (``⌘⇧M``)
-- **Create New Dock** — Add a new dock (``⌘N``)
 - **Check for Updates** — Look for a new version
 - **Quit ExtraDock** — Exit the app (``⌘Q``)
 
 Per-dock controls
 -----------------
 
-Each dock is listed by name with its accent color and position mode. Click a dock to expand its submenu:
+Each dock is listed by name. Click a dock to expand its submenu.
 
 **Quick settings**
 
@@ -31,10 +30,10 @@ Each dock is listed by name with its accent color and position mode. Click a doc
 
 **Visibility & behavior**
 
-- **Hide/Show Dock** — Toggle dock visibility
+- **Show/Hide Dock** — Toggle dock visibility
 - **Auto-hide** — Enable and set the delay (Instant, Quick, Normal, Relaxed)
 - **Hide on Fullscreen** — Toggle fullscreen detection
-- **Collapse Mode** — Switch between None, Icon, and Mini modes
+- **Collapse Mode** — Switch between None and directional collapse modes
 - **Hover-to-Expand** — Toggle hover expansion (when collapse is active)
 - **Show Drag Icon** — Toggle the drag handle
 
@@ -48,3 +47,8 @@ Each dock is listed by name with its accent color and position mode. Click a doc
 - **Rename** — Change the dock's display name
 - **Duplicate** — Create a copy of the dock
 - **Remove Dock** — Delete the dock
+
+License status
+--------------
+
+If ExtraDock is not activated, the menu shows **Activate License**. Temporary licenses may also show remaining time.

@@ -11,7 +11,7 @@ Setting a collapse direction
 
 Five options are available:
 
-- **None** — No collapse (default)
+- **None** — No collapse button
 - **Left to Right** — Button on the left, content expands rightward
 - **Right to Left** — Button on the right, content expands leftward
 - **Top to Bottom** — Button on top, content expands downward

@@ -24,6 +24,8 @@ Folder actions
 - **Open in New Window** — Open in a new Finder window
 - **Reveal in Finder** — Select the folder in its parent directory
 
+If you chose another app in **Open folders with**, folder clicks use that app instead of Finder.
+
 Icon actions
 ------------
 
@@ -32,3 +34,8 @@ Every item also has these actions:
 - **Change Icon** — Replace the icon with a custom one (see :doc:`customicons`)
 - **Revert to Original Icon** — Restore the default icon (only shown if a custom icon is set)
 - **Remove from Dock** — Remove the item from this dock
+
+Item settings
+-------------
+
+Use **Configure** or the gear icon in the Items tab to change item-specific options such as display name, folder tint, folder hover label, or file extension visibility.

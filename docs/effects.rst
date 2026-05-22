@@ -14,6 +14,13 @@ Toggle **Snow** on to enable. Snowflakes fall using a three-layer depth effect (
 
 Vertical docks automatically adjust the particle behavior — snowflakes fall with a wider spread and longer lifetime to fill the taller shape.
 
+Rays
+----
+
+Rays adds an ambient light effect over the dock.
+
+Toggle **Rays Effect** on to enable it. The effect is per-dock, so you can keep one dock calm and make another more decorative.
+
 Fireworks
 ---------
 
@@ -26,4 +33,4 @@ Like snow, vertical docks adjust the launch direction so fireworks fire perpendi
 Combining effects
 -----------------
 
-Both effects can be enabled simultaneously on the same dock. Each dock has independent effect settings.
+Multiple effects can be enabled simultaneously on the same dock. Each dock has independent effect settings.

@@ -8,7 +8,7 @@ Changing an icon
 
 1. Right-click an item in the dock → **Change Icon**
 
-2. The icon picker opens with three tabs:
+2. The icon picker opens with options for:
 
    - **Library** — Icons you've already imported
    - **URL** — Download an icon from a URL
@@ -30,12 +30,17 @@ High-resolution icons (512x512 or larger) work best. Icons are automatically res
 Icon library
 ------------
 
-All imported icons are saved to your library at ``~/Library/Application Support/ExtraDock/icons/``. You can manage the full library from **Settings** (⚙) → **Icon Library**:
+All imported icons are saved to your local icon library. You can manage the full library from **Settings** (⚙) → **Icon Library**:
 
 - **Search** icons by name
 - **Delete** icons you no longer need
 
 Icons associated with a specific app appear first when you open the picker for that app.
+
+Widgets
+-------
+
+Some widgets, such as URL and Folder Stack, can also use custom icons from the same icon library.
 
 Tips
 ----

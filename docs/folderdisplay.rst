@@ -1,15 +1,37 @@
-Folder Display Names
-====================
+Folder & File Display
+=====================
 
-Show a folder's name below its icon for quick identification.
+ExtraDock lets you customize how folders and files appear in a dock.
 
-Enabling it
------------
+Folder hover label
+------------------
 
-1. Open the management window → select a dock → **Items** tab
+Open a folder item's settings and choose what appears when you hover over it:
 
-2. Click the gear icon on a folder item
+- **Folder Name**
+- **Full Path**
+- **Custom Hover Text**
 
-3. Enable **Always Display Name** in the Icon Display section
+Visible folder name
+-------------------
 
-When enabled, the folder icon shrinks to 70% size and the folder name appears below it, truncated to about 10 characters. Everything fits within the standard icon frame.
+Enable **Always show folder name below icon** to display a label under the folder icon.
+
+Leave the custom name blank to use the real folder name, or enter your own visible label.
+
+Folder icon tint
+----------------
+
+Enable **Icon Color** to tint a folder icon. This is useful when you have several folders and want each one to be easier to recognize.
+
+Open folders with
+-----------------
+
+Choose which app opens a folder when clicked.
+
+By default, folders open in Finder. You can choose another file manager for individual folders.
+
+File display names
+------------------
+
+For non-app file items, enable **Hide file extension** if you want a cleaner label in the dock.

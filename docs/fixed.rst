@@ -24,11 +24,25 @@ The management window shows an interactive edge picker for quick selection.
 Full width
 ----------
 
-When enabled, a fixed dock stretches to fill the full width (or height) of the screen.
+When enabled, a fixed dock stretches to fill the full visible width or height of the screen.
 
 **Management window** → **Properties** → **Position** → **Full Width**
 
 This setting only applies to fixed mode docks.
+
+Alignment
+---------
+
+Use **Alignment** to position the dock along the selected edge.
+
+For top and bottom docks, alignment means **Left**, **Center**, or **Right**. For left and right docks, it means **Top**, **Center**, or **Bottom**.
+
+When Full Width is enabled, alignment controls where the dock content sits inside the full-width area.
+
+Edge padding
+------------
+
+Use **Edge Padding** to set pixel margins from visible screen edges. This is useful when you want a fixed dock to avoid a notch, menu bar area, another dock, or a screen corner.
 
 Space from edges
 ----------------

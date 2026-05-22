@@ -27,11 +27,11 @@ Properties tab
 The Properties tab is organized into collapsible sections:
 
 - **Appearance** — Icon size, color, background style, border
-- **Position** — Orientation, floating/fixed mode, screen assignment
+- **Position** — Orientation, floating/fixed mode, edge alignment, screen assignment
 - **Behavior** — Auto-hide, fullscreen hiding, collapse, interactions
 - **Shortcuts** — Per-dock global hotkey
-- **Effects** — Snow and fireworks overlays
-- **Actions** — Hide, duplicate, or remove the dock
+- **Effects** — Snow, Rays, and fireworks overlays
+- **Actions** — Hide, duplicate, copy debug info, or remove the dock
 
 Items tab
 ---------
@@ -40,5 +40,13 @@ The Items tab shows everything in your dock:
 
 - Drag items to reorder them
 - Click the gear icon to configure an item
-- Use the **+** button to add apps, folders, or widgets
+- Use **Add Item** to add apps, folders, or files
+- Use **Add Widget** to add widgets
 - Use **Select** mode for bulk operations
+
+Sharing
+-------
+
+The dock header includes **Share Dock** for publishing a share-safe DockShare preview.
+
+See :doc:`dockshare`.

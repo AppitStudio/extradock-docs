@@ -12,14 +12,18 @@ If you have questions or need help, we're always available at `appitstudio@gmail
    introduction
    installation
    quickstart
+   permissions
    dockreplacement
 
 .. toctree::
    :maxdepth: 2
-   :caption: Docks
+   :caption: Managing Docks
 
    creating
    management
+   menubar
+   importexport
+   dockshare
 
 .. toctree::
    :maxdepth: 2
@@ -30,6 +34,7 @@ If you have questions or need help, we're always available at `appitstudio@gmail
    orientation
    snapping
    multimonitor
+   respectdockspace
 
 .. toctree::
    :maxdepth: 2
@@ -39,7 +44,6 @@ If you have questions or need help, we're always available at `appitstudio@gmail
    collapse
    fullscreen
    desktopwidget
-   respectdockspace
 
 .. toctree::
    :maxdepth: 2
@@ -50,13 +54,27 @@ If you have questions or need help, we're always available at `appitstudio@gmail
    appactions
    dragdrop
    runningindicators
-   notificationbadges
+   notifications
+   folderdisplay
 
 .. toctree::
    :maxdepth: 2
    :caption: Widgets
 
    widgets
+   spacerwidget
+   dividerwidget
+   urlwidget
+   finderwidget
+   folderstack
+   trashwidget
+   shelf
+   clockwidget
+   ipwidget
+   livedock
+   spaceawareness
+   tamadocky
+   stripewidget
 
 .. toctree::
    :maxdepth: 2
@@ -66,35 +84,30 @@ If you have questions or need help, we're always available at `appitstudio@gmail
    background
    border
    customicons
-   folderdisplay
+   iconlibrary
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Automation
+
+   hotkeys
+   macosshortcuts
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Settings & Account
+
+   general
+   dockbehavior
+   leftclick
+   apppreviews
+   integrations
+   license
+   updates
+   privacy
 
 .. toctree::
    :maxdepth: 2
    :caption: Effects
 
    effects
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Shortcuts
-
-   hotkeys
-
-.. toctree::
-   :maxdepth: 2
-   :caption: App Settings
-
-   general
-   leftclick
-   dockbehavior
-   notifications
-   iconlibrary
-   integrations
-   license
-   updates
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Menu Bar
-
-   menubar

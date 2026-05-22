@@ -8,10 +8,17 @@ Creating a dock
 
 There are two ways to create a new dock:
 
-- **Menu bar** — Click the ExtraDock icon → **New Dock**
-- **Management window** — Click **+ New Dock** in the dock list
+- **Management window** — Click **Add Dock** in the dock list
+- **Empty state** — If you have no docks yet, click **Create Your First Dock**
 
 New docks appear as floating horizontal docks on your current screen with default settings.
+
+Sharing a dock
+--------------
+
+Select a dock in the management window and use **Share Dock** to publish a share-safe DockShare preview.
+
+See :doc:`dockshare`.
 
 Renaming a dock
 ---------------
