@@ -8,6 +8,10 @@ ExtraDock is a macOS app that lets you create multiple floating docks and place 
 
 macOS gives you a single Dock. ExtraDock gives you as many as you need.
 
+.. note::
+
+   ExtraDock changes quickly, and these docs are maintained with AI assistance to keep them close to the actual app. They follow the current codebase and user-facing features, but small mismatches may happen between releases. If the app and docs disagree, the app is the source of truth. If something looks off, contact `support@appitstudio.com <mailto:support@appitstudio.com>`_.
+
 Who is it for?
 --------------
 

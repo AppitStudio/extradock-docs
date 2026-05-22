@@ -3,7 +3,7 @@ ExtraDock Docs
 
 Welcome to the ExtraDock documentation. Whether you're already using ExtraDock or exploring whether it's right for you, you'll find everything you need here — from getting started to in-depth feature guides.
 
-If you have questions or need help, we're always available at `appitstudio@gmail.com <mailto:appitstudio@gmail.com>`_.
+If you have questions or need help, we're always available at `support@appitstudio.com <mailto:support@appitstudio.com>`_.
 
 .. toctree::
    :maxdepth: 2
